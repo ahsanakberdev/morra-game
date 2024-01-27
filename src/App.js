@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Index/>}/>
-          <Route path='*' element={<NotFound/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
+          <Route path='*' element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
     );
